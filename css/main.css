@@ -1,0 +1,53 @@
+body {
+	font-size: 2.72vw;
+	font-family: "Avenir Next";
+	background: url(https://watersb.org/img/me/vla-pano-bw.jpg) 0 0/100% auto no-repeat fixed #eee
+}
+
+nav,footer {
+	font-size: 1.8vw
+}
+footer, nav {
+	font-family: "Avenir Next Condensed";
+	color: #555
+}
+
+nav {
+/* 	padding-top: 5vw */
+
+}
+
+nav a {
+	display: block
+}
+
+h1,h2,h3,h4 {
+	font-family: "American Typewriter"
+}
+
+header>img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	opacity: .2
+}
+
+header {
+	display: flex;
+	justify-content: flex-end;
+}
+header h1 {
+	margin-bottom: 0
+}
+header p {
+	margin-top: 0
+}
+header div {
+	width: 40vw;
+	padding-right: 5vw
+}
+
+header {
+	text-align: right;
+}
