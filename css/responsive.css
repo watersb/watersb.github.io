@@ -1,7 +1,7 @@
 @media screen and (max-width: 480px) {
 	body {
 		font-size: 4vw;
-		background: url(https://watersb.org/img/me/vla-pano-bw-480x160.jpg) 0 0/100% auto no-repeat fixed #eee;
+		background-image: url(https://watersb.org/img/me/vla-pano-bw-480x160.jpg);
 	}
 	
 	nav,footer {
@@ -14,11 +14,6 @@
 @media screen and (max-width: 320px) {
 	body {
 		font-size: 5vw;
-		background: url(https://watersb.org/img/me/vla-pano-bw-480x640.jpg) 0 0/100% auto no-repeat fixed #eee;
+		background-image: url(https://watersb.org/img/me/vla-pano-bw-480x640.jpg);
 	}
-	
-	nav,footer {
-		font-size: 3vw;
-	}
-
 }

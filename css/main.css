@@ -7,21 +7,15 @@ body {
 }
 
 nav,footer {
-	font-size: 1.8vw
-}
-footer, nav {
+	font-size: 1.8vw;
 	font-family: "Avenir Next Condensed", "Gill Sans", sans-serif;
 	font-stretch: condensed;
-	color: #555
+	color: #555;
 }
 
-nav {
-/* 	padding-top: 5vw */
-
-}
 
 nav a {
-	display: block
+	display: block;
 }
 
 h1,h2,h3,h4 {
@@ -31,12 +25,13 @@ h1,h2,h3,h4 {
 header {
 	display: flex;
 	justify-content: flex-end;
+	text-align: right;
 }
 header h1 {
-	margin-bottom: 0
+	margin-bottom: 0;
 }
 header p {
-	margin-top: 0
+	margin-top: 0;
 }
 header div {
 	width: 40vw;
@@ -46,6 +41,24 @@ header div {
 	border-right-color: #aaa;
 }
 
-header {
-	text-align: right;
+
+@media screen and (max-width: 480px) {
+	body {
+		font-size: 4vw;
+		background-image: url(https://watersb.org/img/me/vla-pano-bw-480x160.jpg);
+	}
+	
+	nav,footer {
+		font-size: 3vw;
+	}
+
 }
+
+
+@media screen and (max-width: 320px) {
+	body {
+		font-size: 5vw;
+		background-image: url(https://watersb.org/img/me/vla-pano-bw-480x640.jpg);
+	}
+}
+
