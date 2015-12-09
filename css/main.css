@@ -5,16 +5,13 @@ body {
 }
 
 nav,footer {
-	font-size: 1.8vw
-}
-footer, nav {
+	font-size: 1.8vw;
 	font-family: "Avenir Next Condensed";
-	color: #555
+	color: #555;
 }
 
 nav {
-/* 	padding-top: 5vw */
-
+		min-width: 120px;
 }
 
 nav a {
