@@ -24,22 +24,21 @@ h1,h2,h3,h4 {
 	font-family: "American Typewriter", "Consolas", "Roboto Slab", monospace;
 }
 
-
 header {
 	display: flex;
 	justify-content: flex-end;
-}
-#title h1 {
-	margin-bottom: 0
-}
-#title p {
-	margin-top: 0
-}
-#title {
-	width: 40vw;
-	padding-right: 5vw
-}
-
-header {
 	text-align: right;
+}
+header h1 {
+	margin-bottom: 0;
+}
+header p {
+	margin-top: 0;
+}
+header div {
+	width: 40vw;
+	margin-right: 5vw;
+	border-right-style: solid;
+	border-right-width: thin;
+	border-right-color: #aaa;
 }
