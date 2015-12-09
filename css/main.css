@@ -44,3 +44,22 @@ header div {
 	border-right-width: thin;
 	border-right-color: #aaa;
 }
+@media screen and (max-width: 480px) {
+	body {
+		font-size: 4vw;
+		background-image: url(https://watersb.org/img/me/vla-pano-bw-480x160.jpg);
+	}
+	
+	nav,footer {
+		font-size: 3vw;
+	}
+
+}
+
+
+@media screen and (max-width: 320px) {
+	body {
+		font-size: 5vw;
+		background-image: url(https://watersb.org/img/me/vla-pano-bw-480x640.jpg);
+	}
+}
