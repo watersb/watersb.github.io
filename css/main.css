@@ -2,7 +2,7 @@ body {
 	font-size: 2.72vw;
 	font-family: "Avenir Next", "Gill Sans", sans-serif;
 	font-variant-ligatures: common-ligatures;
-	background: url(https://watersb.org/img/me/vla-pano-bw.jpg) 0 0/100% auto no-repeat fixed #eee
+	background: url(https://watersb.org/img/me/vla-pano-bw.jpg) 0 0/100% auto no-repeat fixed #eee;
 }
 
 nav,footer {
@@ -17,7 +17,7 @@ nav {
 }
 
 nav a {
-	display: block
+	display: block;
 }
 
 h1,h2,h3,h4 {
