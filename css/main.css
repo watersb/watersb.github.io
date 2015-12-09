@@ -27,13 +27,13 @@ header {
 	display: flex;
 	justify-content: flex-end;
 }
-header h1 {
+#title h1 {
 	margin-bottom: 0
 }
-header p {
+#title p {
 	margin-top: 0
 }
-header div {
+#title {
 	width: 40vw;
 	padding-right: 5vw
 }
