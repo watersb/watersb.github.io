@@ -2,14 +2,14 @@ html {touch-action: auto;}
 
 body {
 	font-size: 2.72vw;
-	font-family: "Avenir Next", "Gill Sans", sans-serif;
+	font-family: "Avenir Next", "Roboto", "Corbel", sans-serif;
 	font-variant-ligatures: common-ligatures;
 	background: url(https://watersb.org/img/me/vla-pano-bw.jpg) 0 0/100% auto no-repeat fixed #eee;
 }
 
 nav,footer {
 	font-size: 1.8vw;
-	font-family: "Avenir Next Condensed", "Gill Sans", sans-serif;
+	font-family: "Avenir Next Condensed", inherit;
 	font-stretch: condensed;
 	color: #555;
 }
@@ -23,7 +23,7 @@ nav a {
 }
 
 h1,h2,h3,h4 {
-	font-family: "American Typewriter", "Consolas", "Roboto Slab", monospace;
+	font-family: "American Typewriter", "Roboto Slab", inherit;
 }
 
 header {
