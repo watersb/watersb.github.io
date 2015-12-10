@@ -3,7 +3,12 @@ html {touch-action: auto;}
 body {
 	font-size: 2.72vw;
 	font-family: "Avenir Next", "Roboto", "Corbel", sans-serif;
-	font-variant-ligatures: common-ligatures;
+
+	font-kerning: normal;
+	font-variant-ligatures: common-ligatures, contextual;
+	font-variant-numeric: oldstyle-nums, proportional-nums;
+	font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum";
+
 	background: url(https://watersb.org/img/me/vla-pano-bw.jpg) 0 0/100% auto no-repeat fixed #eee;
 }
 
