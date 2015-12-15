@@ -14,7 +14,7 @@ body {
 
 nav,footer {
 	font-size: 1.8vw;
-	font-family: "Avenir Next Condensed", inherit;
+	font-family: "Avenir Next Condensed", "Roboto Condensed", "Corbel";
 	font-stretch: condensed;
 	color: #555;
 }
@@ -28,7 +28,7 @@ nav a {
 }
 
 h1,h2,h3,h4 {
-	font-family: "American Typewriter", "Roboto Slab", inherit;
+	font-family: "American Typewriter", "Tahoma", "Roboto Slab";
 }
 
 header {
