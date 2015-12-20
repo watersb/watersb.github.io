@@ -19,12 +19,11 @@ nav,footer {
 	color: #555;
 }
 
-nav {
-		min-width: 120px;
-}
 
 nav a {
 	display: block;
+	color: #777;
+	text-decoration: none;
 }
 
 h1,h2,h3,h4 {
@@ -70,7 +69,6 @@ header nav {
 	nav a {
 		flex: 1 0 33%;
 		text-align: center;
-		color: #777;
 	}
 
 }
