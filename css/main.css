@@ -19,6 +19,10 @@ nav,footer {
 	color: #555;
 }
 
+footer img {
+	width: 10vw;
+}
+
 
 nav a {
 	display: block;
@@ -57,6 +61,9 @@ header nav {
 		background-image: url(https://watersb.org/img/me/vla-pano-bw-480x160.jpg);
 	}
 	
+footer img {
+	width: 20vw;
+}
 
  nav, footer {
 		font-size: 3.3vw;
