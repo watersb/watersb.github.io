@@ -45,18 +45,18 @@ header h1 {
 	margin-bottom: 0;
 }
 header p {
-	margin-top: 0;
+	margin-top: -0.5em;
 }
 header > div {
 	flex-grow: 3;
-	min-width: 320px;
+	min-width: 300px;
 	margin-right: 5vw;
 }
 header nav {
 	flex-grow: 1;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 760px) {
 	body {
 		font-size: 4vw;
 		background-color: #e0e0e0;
